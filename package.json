@@ -1,0 +1,11 @@
+{
+  "name": "aprenda-kotlin-com-exemplos-lab",
+  "version": "1.0.0",
+  "description": "Desafio de Projeto criado para avaliação do conteúdo técnico de Kotlin explorado.",
+  "main": "index.js",
+  "scripts": {
+    "start": "kotlinc desafio.kt -include-runtime -d ./build/desafio.jar && java -jar ./bin/desafio.jar"
+  },
+  "author": "santosesantos",
+  "license": "ISC"
+}
